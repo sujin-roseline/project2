@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.a {
+	font-style: none;
+}
+
+.sj-viewScontainer {
+	display: flex;
+}
+
+.sj-result {
+	flex: 1;
+}
+
+#map {
+	width: 50%;
+	height: 350px;
+}
+
+/* 모달 */
+.sj-review {
+    display: none; /* 기본적으로 모달은 숨겨진 상태 */
+    position: fixed; /* 화면에 고정된 위치 */
+    z-index: 1; /* 다른 요소보다 위에 표시됨 */
+    left: 0;
+    top: 50%; /* 페이지 상단에서 50% 위치에 표시됨 */
+    transform: translateY(-50%); /* 세로 중앙 정렬 */
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* 스크롤 가능하도록 설정 */
+    background-color: rgba(0, 0, 0, 0.5); /* 배경에 어둡게 투명한 색상 */
+  }
+  
+  .sj-review-content {
+    background-color: #fefefe;
+    margin: 0 auto; /* 가로 중앙 정렬 */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* 모달 창의 최대 너비 지정 */
+  }
+  
+  
+/* 모달 작성*/
+.sj-review-write {
+    display: none; /* 기본적으로 모달은 숨겨진 상태 */
+    position: fixed; /* 화면에 고정된 위치 */
+    z-index: 1; /* 다른 요소보다 위에 표시됨 */
+    left: 0;
+    top: 50%; /* 페이지 상단에서 50% 위치에 표시됨 */
+    transform: translateY(-50%); /* 세로 중앙 정렬 */
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* 스크롤 가능하도록 설정 */
+    background-color: rgba(0, 0, 0, 0.5); /* 배경에 어둡게 투명한 색상 */
+  }
+  
+  .sj-review-content-write {
+    background-color: #fefefe;
+    margin: 0 auto; /* 가로 중앙 정렬 */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* 모달 창의 최대 너비 지정 */
+  }
